@@ -18,23 +18,15 @@ int main()
 		x = random[i];
 		if (x % 2 == 0)
 		{
-			oddeven x = Even;
+			cout << x << endl;
 		}
-		if (x % 2 != 0)
+		break;
+		else if (x % 2 != 0)
 		{
-			oddeven x = Odd;
+			cout << x << endl;
 		}
+		break;
 	}
-	do
-	{
-		cout << x << endl;
-		cin.get(Even);
-	} while (x = Even);
-	do
-	{
-		cout << x << endl;
-		cin.get(Odd);
-	} while (x = Odd);
 
 	return 0;
 }
