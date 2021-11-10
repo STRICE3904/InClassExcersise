@@ -25,9 +25,16 @@ int main()
 			oddeven x = Odd;
 		}
 	}
-	while (x = Even)
+	do
 	{
-		
-	}
-	
+		cout << x << endl;
+		cin.get(Even);
+	} while (x = Even);
+	do
+	{
+		cout << x << endl;
+		cin.get(Odd);
+	} while (x = Odd);
+
+	return 0;
 }
